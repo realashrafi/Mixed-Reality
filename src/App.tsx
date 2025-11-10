@@ -7,8 +7,8 @@ function App() {
   return (
       <Router>
         <Routes>
-          <Route path="/" element={<ARIntegrated/>}/>
-          <Route path="/1" element={<ARIntegrated2 anchorImage={'/targets.mind'}/>}/>
+          {/*<Route path="/" element={<ARIntegrated/>}/>*/}
+          <Route path="/" element={<ARIntegrated2 anchorImage={'/targets.mind'}/>}/>
         </Routes>
       </Router>
   );
